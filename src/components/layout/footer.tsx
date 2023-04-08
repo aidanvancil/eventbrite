@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-footer-purple text-white p-4 absolute bottom-0 w-full">
+    <footer className="bg-footer-purple text-white p-4 min-h-screen w-full">
         <div className='text-xs text-left flex grid-cols-4 gap-4'>
             <div className='w-1/2 px-4 mb-4'>
                 <h3 className='text-sm font-bold mb-3'>Use Eventbrite</h3>

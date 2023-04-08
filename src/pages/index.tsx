@@ -17,8 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className='bg-gray-800 h-full'>
-        
+      <main className='bg-gray-800'>
+        <img className='inline w-full' src="/homepage_modal.jpg" alt="homepage modal" />
+        <section className='text-white w-full'>Here</section>
       </main>
       <Footer />
     </>
